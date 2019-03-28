@@ -1,0 +1,55 @@
+
+body {
+    background-image: url(http://trackurls.info/wp-content/uploads/2018/04/world-map-of-continents-maps-with-continent-names-printable-and-x-countries-capitals-pdf.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.background{
+    top: 65%;
+    height: 60%;
+    left: 70%;
+    width: 60%;
+    background-color: burlywood;
+    max-width: 600px;
+    position: fixed;
+    display: block;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70%;
+    width: 50%;
+    background-color: lightgrey;
+    border: 3px solid red;
+    font-size: 30px;
+}
+
+.cevap {
+    text-align: center;
+    font-weight: bold;
+    visibility: hidden;
+    font-size: 26px;
+    color: gray;
+}
+.rsm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+#zaman{
+    color: red;
+}
+#question{
+    color: black;
+}
